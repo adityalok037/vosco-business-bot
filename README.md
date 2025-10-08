@@ -11,16 +11,27 @@ This project delivers a complete prototype for querying structured data via plai
 - **Database Setup:** PostgreSQL schema with relationships and vector embeddings.
 - **Search Capabilities:** NL-to-SQL conversion, vector search, and hybrid modes.
 - **User Interface:** Chat-inspired design with contextual history and multi-chat support.
-- **Deliverables:** Source code, setup guide, tests, and improvement strategies.
+- **Deliverables:** Source code, setup guide, demo video, and improvement suggestions.
 - **Highlights:** Modular code, secure query validation, and scalable features for real-world deployment.
 
-For a quick demo, run the app locally or view the screen recording (link in Deliverables section).
+**Demo & Deliverables:**
+- GitHub Repository with full code: [vosco-business-bot](https://github.com/adityalok037/vosco-business-bot)  
+- Screen recording showing working prototype (2–3 minutes)  
+- Suggestions for improving system effectiveness included in README  
+
+**Evaluation Criteria:**
+- ✅ Query accuracy & efficiency  
+- ✅ Usability of Streamlit UI  
+- ✅ Best strategy suggestions for improving the system  
+- ✅ Code quality & modularity  
+- ✅ Clear documentation  
 
 ---
 
 ## Project Overview
 
 This application provides a **natural language search interface** for a PostgreSQL database managing **employee, department, order, and product information**.  
+
 It uses:
 
 - **Gemini AI** for converting queries to SQL  
@@ -123,13 +134,17 @@ The system supports:
 
 ### Installation
 
+```bash
+# Clone the repository
+git clone https://github.com/adityalok037/vosco-business-bot.git
+cd vosco-business-bot
 
-git clone ([https://github.com/adityalok037/vosco-business-bot/])
-cd vosco-bot
-
-# Create virtual environment
+# Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# Linux/macOS
+source venv/bin/activate
+# Windows
+venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
