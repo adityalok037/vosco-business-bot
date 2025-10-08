@@ -13,6 +13,7 @@ This project delivers a complete prototype for querying structured data via plai
 - **User Interface:** Chat-inspired design with contextual history and multi-chat support.
 - **Deliverables:** Source code, setup guide, demo video, and improvement suggestions.
 - **Highlights:** Modular code, secure query validation, and scalable features for real-world deployment.
+- **If required can add pdf and Excel button to download the output in Excel sheet or in pdf 
 
 **Demo & Deliverables:**
 - GitHub Repository with full code: [vosco-business-bot](https://github.com/adityalok037/vosco-business-bot)  
