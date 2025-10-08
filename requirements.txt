@@ -1,9 +1,9 @@
-streamlit 
-psycopg2-binary 
+streamlit
+psycopg2-binary
+SQLAlchemy
+pgvector
+dotenv
+pandas
+plotly
 langchain-google-genai
- pgvector
-  sentence-transformers 
-  sqlalchemy 
-  pandas
-   plotly
-   dotenv
+sentence-transformers
