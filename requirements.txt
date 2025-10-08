@@ -1,0 +1,9 @@
+streamlit 
+psycopg2-binary 
+langchain-google-genai
+ pgvector
+  sentence-transformers 
+  sqlalchemy 
+  pandas
+   plotly
+   dotenv
